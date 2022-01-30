@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    html,
+    body{
+        @apply w-full h-full bg-gray-900 text-white;
+    }
+
+    input{
+        @apply bg-gray-800 focus:outline-none py-2 px-4 rounded focus:ring transition;
+    }
+
+    .green-button{
+        @apply py-2 px-4 bg-green-600 rounded hover:bg-green-800 transition my-4;
+    }
+}
